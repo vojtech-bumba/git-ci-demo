@@ -1,7 +1,7 @@
 #include "fact.h"
 
 long long MyMath::factorial(long long n) {
-    if (n < 1) {
+    if (n < 0) {
         return 0;
     }
     long long product = 1;
