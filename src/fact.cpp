@@ -1,11 +1,11 @@
 #include "fact.h"
 
-long long MyMath::factorial(long long n) {
+unsigned long long MyMath::factorial(unsigned long long n) {
     if (n < 0) {
         return 0;
     }
-    long long product = 1;
-    for (long long i = n; i > 0; i--) {
+    unsigned long long product = 1;
+    for (unsigned long long i = n; i > 0; i--) {
         product *= i;
     }
     return product;
